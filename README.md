@@ -4,6 +4,12 @@ A tiny (~20 KB) right-click compressor and extractor for Windows 10 (1803+) and 
 
 It uses **libarchive**, which Windows already ships as `System32\archiveint.dll` (Explorer and `tar.exe` use the same library). That means the exe only contains the UI and glue code.
 
+## Download
+
+Get `Compresser.exe` from the [latest release](https://github.com/rA9-001/Skidbladnir/releases/latest), double-click it, and choose **Yes** to install.
+
+The exe isn't code-signed, so Windows SmartScreen may show "Windows protected your PC". Click **More info → Run anyway**.
+
 ## Features
 
 | Right-click on | Menu entry | Result |
